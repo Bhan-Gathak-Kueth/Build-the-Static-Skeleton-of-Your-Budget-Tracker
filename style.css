@@ -1,0 +1,139 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Page heading */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Content sections */
+section {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+/* Input fields and dropdown */
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    margin-top: 18px;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* conatiner */
+.conatiner{
+    background-color: black;
+    color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+.section h2{
+      font-size: 42px;
+      padding-bottom: 10px;
+}
+.section p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    
+}
+
+.section a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 2px solid white;
+    padding: 5px 8px;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.section a:hover{
+    background-color: orangered;
+}
+
+/* showcase */
+
+.showcase{
+    height: 300px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.showcase img{
+    width: 16%;
+}
+
+.box{
+    background-color: gray;
+    height: 150px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+/* footer */
+
+.footer{
+    height: 130px;
+    /* width: 70%; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero{
+    height: 80px;
+    width: 70%;
+    background-color: rgb(183, 183, 183);
+    border: 2 solid orangered;
+    padding: 30px;
+}
